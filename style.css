@@ -58,7 +58,7 @@ body {
     padding: 1.4rem .8rem .8rem .8rem;
     position: absolute;
     left: 47%;
-    top: 50%;
+    top: 52%;
     transform: translate(-50%, -50%);
 }
 
@@ -112,6 +112,11 @@ body {
 
 .master-card {
     display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
 }
 
 .red {
@@ -128,4 +133,9 @@ body {
     width: 35px;
     background-color: #F79E1B;
     border-radius: 50%;
+}
+
+.master-card p {
+    text-align: center;
+    margin-inline-end: -1.4rem;
 }

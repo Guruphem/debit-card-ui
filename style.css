@@ -18,12 +18,10 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    /* width: 800px; */
 }
 
 .top-circles {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     gap: 3rem;
 }
@@ -119,8 +117,10 @@ body {
 .red {
     height: 35px;
     width: 35px;
-    background-color: #EB001B;
+    background-color: #eb001be7;
     border-radius: 50%;
+    position: relative;
+    right: -1.4rem;
 }
 
 .yellow {

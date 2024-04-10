@@ -13,9 +13,24 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.debit-card {
+    position: absolute;
+    left: 50%;
+    top: 23%;
+    transform: translate(-50%, -50%);
+    /* width: 800px; */
+}
+
+.top-circles {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 3rem;
+}
+
 .peach-circle {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     background-color: #E04141;
     border-radius: 50%;
 }
@@ -24,4 +39,13 @@ body {
     background-color: #F79E1B;
     height: 100px;
     width: 100px;
+    border-radius: 50%;
+}
+
+.big-yellow-circle {
+    background-color: #F79E1B;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
 }
